@@ -1,12 +1,8 @@
-
-
 ## Demo Presentation
 
-
---- 
+---
 
 ## Another slide
-
 
 ---
 
@@ -16,3 +12,14 @@
 - hugo
 - some more stuff
 
+---
+
+## And one final slide
+
+| one   | two   |
+|-------|-------| 
+| 1     | 2     |
+| eins  | zwei  |
+
+- egon
+- hugo
