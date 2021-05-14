@@ -111,7 +111,9 @@
 * Attempt to put Python on Micro-Controller-Boards
 * Started with an own Board
 * Interpreter now available for a lot of µC-Boards
-* 
+* Including the Raspberry-Pi Pico
+
+
 
 ---
 
