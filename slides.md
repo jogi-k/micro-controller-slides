@@ -1,5 +1,6 @@
 ## Micro-Controller-Introduction
 
+
 ---
 
 ### by Jogi 
@@ -17,32 +18,32 @@
 
 ---
 
-### This was my first computer
+### This was my first computer (6502 CPU)
 
-![Junior](pics/junior.jpg)
+![Junior](pics/junior_gehaeuse.jpg)
 
 ---
 
 ### This _IS_ still my first computer
 
-![my Junior](pics/my_junior.jpg)
+![my Junior](pics/jogis_junior.jpg)
 
 ---
 
-### A klone of KIM 1 (by Commodore)
+### A klone of KIM 1 (by Commodore, 6502 CPU) 
 
 ![KIM 1](pics/kim1.jpg)
 
 ---
 
-### Famous Apple ][ 
+### Famous Apple ][ (6502 CPU)
 
 
 ![Apple](pics/Apple_II_2.jpg)
 
 ---
 
-### Famous Commodore C64 
+### Famous Commodore C64 (6502 CPU)
 
 ![C64](pics/c64.png)
 
@@ -72,6 +73,35 @@
 
 ---
 
+### 2006 Arduino enters the world
+
+
+
+---
+
+### 2012 Raspberry PI Enters the world
+
+__STOP__ : Raspberry Pi is __NOT__ a Micro-Controller
+
+---
+
+### 2014 ESP 8266 enters the world
+
+
+
+---
+
+### 2016 ESP 32 enters the world
+
+
+---
+
+### 2021 Raspberry Pi Pico enters the world
+
+
+
+---
+
 ### Linkcollection for now
 
 
@@ -83,6 +113,8 @@
 * https://www.mikrocontroller.net/
 * Simulator Servo : https://wokwi.com/arduino/libraries/Servo/Knob
 * PICO-Sdk Pimoroni : https://github.com/pimoroni/pimoroni-pico/blob/main/setting-up-the-pico-sdk.md
+* The Junior-Computer : https://archive.org/details/ElektorMagazine/Elektor%5Bnonlinear.ir%5D%201980-05/page/n9/mode/2up?view=theater
+
 ---
 
 ### Legal stuff
@@ -191,3 +223,98 @@
 
 ##  
 
+---
+
+![80c166_front.png](./pics/80c166_front.png)
+
+
+---
+
+![80c166.png](./pics/80c166.png)
+
+---
+
+
+---
+
+![Apple_II_2.jpg](./pics/Apple_II_2.jpg)
+
+---
+
+![arduino_ide.png](./pics/arduino_ide.png)
+
+---
+
+![arduino_leonardo.jpg](./pics/arduino_leonardo.jpg)
+
+---
+
+![arduino_uno.jpg](./pics/arduino_uno.jpg)
+
+---
+
+![atmega32u4.png](./pics/atmega32u4.png)
+
+---
+
+![avr_8Bit_block_diag.png](./pics/avr_8Bit_block_diag.png)
+
+---
+
+![C64.jpg](./pics/C64.jpg)
+
+---
+
+![c64.png](./pics/c64.png)
+
+---
+
+![circuit-python_as_drive.png](./pics/circuit-python_as_drive.png)
+
+---
+
+![jogis_junior.jpg](./pics/jogis_junior.jpg)
+
+---
+
+![junior_computer_6502.jpg](./pics/junior_computer_6502.jpg)
+
+---
+
+![junior_computer_6532.jpg](./pics/junior_computer_6532.jpg)
+
+---
+
+![junior_gehaeuse.jpg](./pics/junior_gehaeuse.jpg)
+
+---
+
+![junior.jpg](./pics/junior.jpg)
+
+---
+
+![kim1.jpg](./pics/kim1.jpg)
+
+---
+
+![linus_nvidia.jpg](./pics/linus_nvidia.jpg)
+
+---
+
+![pico_as_uf2.png](./pics/pico_as_uf2.png)
+
+---
+
+![pico_boardsmanager.png](./pics/pico_boardsmanager.png)
+
+---
+
+![rp2040_blocks.jpg](./pics/rp2040_blocks.jpg)
+
+---
+
+![schematic_junior_computer.jpg](./pics/schematic_junior_computer.jpg)
+
+---
+
+![yogi_bear-head.jpg](./yogi_bear-head.jpg)
