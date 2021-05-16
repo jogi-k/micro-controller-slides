@@ -18,32 +18,33 @@
 
 ---
 
-### This was my first computer (6502 CPU)
+### My first computer (6502 CPU)
+
 
 ![Junior](pics/junior_gehaeuse.jpg)
 
 ---
 
-### This _IS_ still my first computer
+### This _IS_ my first computer
 
 ![my Junior](pics/jogis_junior.jpg)
 
 ---
 
-### A klone of KIM 1 (by Commodore, 6502 CPU) 
+### KIM 1-Clone (by Commodore, 6502 CPU) 
 
 ![KIM 1](pics/kim1.jpg)
 
 ---
 
-### Famous Apple ][ (6502 CPU)
+### Apple ][ (6502 CPU)
 
 
 ![Apple](pics/Apple_II_2.jpg)
 
 ---
 
-### Famous Commodore C64 (6502 CPU)
+### Commodore C64 (6502 CPU)
 
 ![C64](pics/c64.png)
 
@@ -51,31 +52,65 @@
 
 ### Architecture of Junior
 
----
-
-
-
-- egon
-- hugo
-- some more stuff
+![schematic_junior_computer.jpg](./pics/schematic_junior_computer.jpg)
 
 ---
 
-## And one final slide
+### The 6502 CPU
 
-| one   | two   |
-|-------|-------|
-| 1     | 2     |
-| eins  | zwei  |
+![junior_computer_6502.jpg](./pics/junior_computer_6502.jpg)
 
-- egon
-- hugo
+---
+
+### Architecture of Junior
+
+![schematic_junior_computer.jpg](./pics/schematic_junior_computer.jpg)
+
+---
+
+### The 6532 (RAM I/O Timer)
+
+![junior_computer_6532.jpg](./pics/junior_computer_6532.jpg)
+
+---
+
+### Programming
+
+![Loop with OP-codes](./pics/6502_loop.png)
+
+---
+
+## some years later ...
+
+---
+
+### Siemens 80c166
+
+![80c166_front.png](./pics/80c166_front.png)
+
+---
+
+### 80c166 Architecture
+
+![80c166.png](./pics/80c166.png)
+
+---
+
+### Programming Environment
+
+* TODO : Bildchen vom Environment
+
 
 ---
 
 ### 2006 Arduino enters the world
 
-
+* Arduino is a ECO-system
+* Hardware ("standardised") with AVR-µC
+* so called Shields : to be stacked on top
+* Software is for free 
+* Rather easy, but complete "IDE"
+* includes/hides all details incl download
 
 ---
 
@@ -100,28 +135,6 @@ __STOP__ : Raspberry Pi is __NOT__ a Micro-Controller
 
 
 
----
-
-### Linkcollection for now
-
-
-* KIM-Uno: https://www.hackster.io/obsolescence/kim-uno-a-6502-kim-1-computer-on-arduino-e5c82c
-* 6502 : http://www.6502.org/source/
-* UF2 : https://makecode.com/blog/one-chip-to-flash-them-all 
-* UF2 : https://github.com/microsoft/uf2
-* Pico - Arduino : https://www.heise.de/tests/Raspberry-Pico-mit-der-Arduino-IDE-programmieren-6001575.html
-* https://www.mikrocontroller.net/
-* Simulator Servo : https://wokwi.com/arduino/libraries/Servo/Knob
-* PICO-Sdk Pimoroni : https://github.com/pimoroni/pimoroni-pico/blob/main/setting-up-the-pico-sdk.md
-* The Junior-Computer : https://archive.org/details/ElektorMagazine/Elektor%5Bnonlinear.ir%5D%201980-05/page/n9/mode/2up?view=theater
-
----
-
-### Legal stuff
-
-* Von Rama &amp; Musée Bolo - Eigenes Werk, CC BY-SA 2.0 fr, https://commons.wikimedia.org/w/index.php?curid=11292404
-* Von Narnars0 - Eigenes Werk, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=32247697
-* Von Evan-Amos - Eigenes Werk, Gemeinfrei, https://commons.wikimedia.org/w/index.php?curid=17414886
 
 ---
 
@@ -196,7 +209,6 @@ __STOP__ : Raspberry Pi is __NOT__ a Micro-Controller
 
 * https://ordina-jworks.github.io/iot/2021/03/25/Getting-started-with-the-pi-pico.html
 * Shows also SDK, Micro-Python and Circuit-Python
-* 
 
 ---
 
@@ -217,22 +229,6 @@ __STOP__ : Raspberry Pi is __NOT__ a Micro-Controller
 
 * https://www.heise.de/news/Konkurrenz-fuer-Raspberry-Pico-mit-USB-C-und-Winzfaktor-6040934.html
 * https://www.heise.de/developer/artikel/Des-Prozessors-Kern-Parallelisierung-auf-dem-Raspberry-Pi-Pico-mit-C-und-C-6000386.html
-
-
-
-
-##  
-
----
-
-![80c166_front.png](./pics/80c166_front.png)
-
-
----
-
-![80c166.png](./pics/80c166.png)
-
----
 
 
 ---
@@ -277,14 +273,6 @@ __STOP__ : Raspberry Pi is __NOT__ a Micro-Controller
 
 ---
 
-![junior_computer_6502.jpg](./pics/junior_computer_6502.jpg)
-
----
-
-![junior_computer_6532.jpg](./pics/junior_computer_6532.jpg)
-
----
-
 ![junior_gehaeuse.jpg](./pics/junior_gehaeuse.jpg)
 
 ---
@@ -313,8 +301,45 @@ __STOP__ : Raspberry Pi is __NOT__ a Micro-Controller
 
 ---
 
-![schematic_junior_computer.jpg](./pics/schematic_junior_computer.jpg)
+![yogi_bear-head.jpg](./yogi_bear-head.jpg)
+
+
 
 ---
 
-![yogi_bear-head.jpg](./yogi_bear-head.jpg)
+## And one final slide
+
+| "Computer" | CPU   | Freq | RAM | ROM | Price   | 
+|------------|-------|------|-----|-----|---------|
+| Junior     | 6502  | 1MHz | 1kB | 1kB | ~350 DM | 
+| "Computer" | CPU   | Freq | RAM | ROM | Price   | 
+| "Computer" | CPU   | Freq | RAM | ROM | Price   | 
+| "Computer" | CPU   | Freq | RAM | ROM | Price   | 
+| "Computer" | CPU   | Freq | RAM | ROM | Price   | 
+| "Computer" | CPU   | Freq | RAM | ROM | Price   | 
+| "Computer" | CPU   | Freq | RAM | ROM | Price   | 
+| "Computer" | CPU   | Freq | RAM | ROM | Price   | 
+
+
+---
+
+### Linkcollection for now
+
+
+* KIM-Uno: https://www.hackster.io/obsolescence/kim-uno-a-6502-kim-1-computer-on-arduino-e5c82c
+* 6502 : http://www.6502.org/source/
+* UF2 : https://makecode.com/blog/one-chip-to-flash-them-all 
+* UF2 : https://github.com/microsoft/uf2
+* Pico - Arduino : https://www.heise.de/tests/Raspberry-Pico-mit-der-Arduino-IDE-programmieren-6001575.html
+* https://www.mikrocontroller.net/
+* Simulator Servo : https://wokwi.com/arduino/libraries/Servo/Knob
+* PICO-Sdk Pimoroni : https://github.com/pimoroni/pimoroni-pico/blob/main/setting-up-the-pico-sdk.md
+* The Junior-Computer : https://archive.org/details/ElektorMagazine/Elektor%5Bnonlinear.ir%5D%201980-05/page/n9/mode/2up?view=theater
+
+---
+
+### Legal stuff
+
+* Von Rama &amp; Musée Bolo - Eigenes Werk, CC BY-SA 2.0 fr, https://commons.wikimedia.org/w/index.php?curid=11292404
+* Von Narnars0 - Eigenes Werk, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=32247697
+* Von Evan-Amos - Eigenes Werk, Gemeinfrei, https://commons.wikimedia.org/w/index.php?curid=17414886
