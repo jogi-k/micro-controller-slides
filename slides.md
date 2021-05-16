@@ -131,6 +131,40 @@ __STOP__ : Raspberry Pi is __NOT__ a Micro-Controller
 
 ---
 
+### In the meantime : ARM
+
+* Acorn RISC Machine
+* From the beginning: 32 Bit (16 Bit Thumb-Mode)
+* now: 3 categories
+   * ARM Cortex A (Application Processor)
+   * ARM Cortex M (Micro-Controller)
+   * ARM Cortex R (Realtime-CPU)
+
+---
+
+### ARM 
+
+* Sells IP only, no HW
+* Therefore ARMs from a lot of different silicon vendors
+* Actual : ARM is beeing aquired
+* You know by whom
+
+---
+
+### Yes: Linus best friend
+
+
+---
+
+### Arduinos and other => ARM
+
+* Still AVR available
+* More power => ARM
+* Arduino-IDE able to cover them all
+* through board-library
+
+---
+
 ### 2021 Raspberry Pi Pico enters the world
 
 
