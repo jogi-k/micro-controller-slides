@@ -1,6 +1,7 @@
 
+/* Simple Arduino-Sketch "Hello World" blinking LED for an Raspberry Pi Pico */
 
-#define MILLIWAIT 500
+#define MILLIWAIT 100
 #define TOGGLE_PIN 18 
 
 void setup() {
