@@ -210,6 +210,12 @@
 
 ---
 
+### Nice Arduino-Simulator
+
+* https://wokwi.com/arduino/libraries/Servo/Knob
+
+---
+
 ### 2012 Raspberry PI Enters the world
 
 ---
@@ -219,7 +225,7 @@
 
 ---
 
-## Raspberry PI
+### Raspberry PI
 
 * Is NOT a Micro Controller
 * Is based on an ARM-Cortex Application-Processor
@@ -284,29 +290,76 @@
 
 
 
+---
+
+### Raspberry Pi Pico
+
+* just another Micro-Controller 
+* But 3 interesting aspects
+    * is from the Raspberry-PI foundation => might attract new "customers"
+    * breaks with the "Has to run with Arduino-IDE"-Dogma 
+    * Has at least one interesting HW-Block, the PIO
+
 
 ---
 
-## Raspberry Pi Pico
+
+### Raspberry Pi Pico
 
 * always starts as UF2-Board
+* looks like a USB-Stick
 * Microsoft-defined USB-Format
-* especially dedicated for downloading firmware to µC via USB
+* especially dedicated for downloading firmware to MC via USB
+* Cannot put just e.g. python-Files on it
+
+---
+
+### The PICO itself
+
+
+![raspberry_pi_pico.jpg](./pics/raspberry_pi_pico.jpg)
+
+---
+
+### The PINs of PICO
+
+
+![RPI-Pico-Pins.jpg](./pics/RPI-Pico-Pins.jpg)
+
+---
+
+### The Blocks of PICO
+
+![rp2040_blocks.jpg](./pics/rp2040_blocks.jpg)
+
+---
+
+### Raspi Pico Dev Environements
+
+* Plain SDK (Assembler/C/C++)
+* Micropython
+* Circuitpython
+* Arduino-IDE
+
+---
+
+### PICO as U2F-USB Mass-Storage
+
+![pico_as_uf2.png](./pics/pico_as_uf2.png)
+
+---
+
+### Dev-Environment : SDK 
+
+
+![dev_env_pico_plain.png](./pics/dev_env_pico_plain.png)
 
 
 ---
 
-### C/C++ via SDK
+### Dev-Environement : SDK (cmake)
 
-* THE Guide from Raspberry : https://datasheets.raspberrypi.org/pico/getting-started-with-pico.pdf
-* THE SDK on Github : https://github.com/raspberrypi/pico-sdk
-
----
-
-### Arduino Environment
-
-* https://www.heise.de/tests/Raspberry-Pico-mit-der-Arduino-IDE-programmieren-6001575.html
-
+![dev_env_pico_plain_II.png](./pics/dev_env_pico_plain_II.png)
 
 ---
 
@@ -323,98 +376,88 @@
 * Started with an own Board
 * Interpreter now available for a lot of µC-Boards
 * Including the Raspberry-Pi Pico
-* Blink-Programm : https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/5
 
+
+---
+
+### Dev-Env Micro-Python
+
+
+![dev_env_pico_micro.png](./pics/dev_env_pico_micro.png)
 
 ---
 
 ### Circuit-Python
 
-* Basics by Adafruit : https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/circuitpython-programming-basics
+* Is a fork of Micro-Python
+* Done/maintained by Adafruit
+* A lot of differences in the libraries
+* Main difference visible : Provides a "real" USB-Drive
+
+---
+
+### Dev-Env Circuit-Python
+
+![dev_env_pico_circuit.png](./pics/dev_env_pico_circuit.png)
 
 
 ---
 
-### Servo at Raspberry Pi Pico
+### Arduino for the PICO
 
-* https://www.youngwonks.com/blog/How-to-use-a-servo-motor-with-the-Raspberry-Pi-Pico
-* Attention : Micro-Python
+* was not in the focus of Raspberry-Pi organisation
+* started as community-project
+* since end of April 2021 : officially supported
+
+---
+
+### Installation via Board-Library
+
+
+![pico_boardsmanager.png](./pics/pico_boardsmanager.png)
+
+---
+
+### Dev-Environement : Arduino
+
+
+![dev_env_pico_arduino.png](./pics/dev_env_pico_arduino.png)
 
 ---
 
 ### The PIO
 
 * Programmable IO
-* "a Co-Processor", dedicated to programm even new "buses"
+* "a Co-Processor", dedicated to programm even new serial "buses"
 * offloads work from the CPU, compared to "bit-banging"
 * https://www.cnx-software.com/2021/01/27/a-closer-look-at-raspberry-pi-rp2040-programmable-ios-pio/
 
 
 ---
 
+### Conclusion for PICO
 
+4 Different Dev-Environments
 
+* C/C++ - SDK via cmake and U2F-Filesystem
+* Micro-Python with USB-serial / Thonny
+* Circuit-Python with real filesystem
+* Arduino - IDE 
 
----
-
-
----
-
-
-
-
-
-
-
----
-
-![circuit-python_as_drive.png](./pics/circuit-python_as_drive.png)
-
----
-
-![jogis_junior.jpg](./pics/jogis_junior.jpg)
-
----
-
-![junior_gehaeuse.jpg](./pics/junior_gehaeuse.jpg)
-
----
-
-![junior.jpg](./pics/junior.jpg)
-
----
-
-![kim1.jpg](./pics/kim1.jpg)
-
----
-
-![pico_as_uf2.png](./pics/pico_as_uf2.png)
-
----
-
-![pico_boardsmanager.png](./pics/pico_boardsmanager.png)
-
----
-
-![rp2040_blocks.jpg](./pics/rp2040_blocks.jpg)
-
-
+Choose yourself
 
 
 ---
 
 ## And one final slide
 
-| "Computer" | CPU   | Freq | RAM | ROM | Price   | 
-|------------|-------|------|-----|-----|---------|
-| Junior     | 6502  | 1MHz | 1kB | 1kB | ~350 DM | 
-| "Computer" | CPU   | Freq | RAM | ROM | Price   | 
-| "Computer" | CPU   | Freq | RAM | ROM | Price   | 
-| "Computer" | CPU   | Freq | RAM | ROM | Price   | 
-| "Computer" | CPU   | Freq | RAM | ROM | Price   | 
-| "Computer" | CPU   | Freq | RAM | ROM | Price   | 
-| "Computer" | CPU   | Freq | RAM | ROM | Price   | 
-| "Computer" | CPU   | Freq | RAM | ROM | Price   | 
+| "Computer" | CPU      | Bus | Freq | RAM  | ROM  | Price | 
+|------------|----------|-----|------|------|------|-----|
+| Junior     | 6502     | 8   | 1    | 1k   | 1k   | 350 | 
+| Siemens P1 | 80c166   | 16  | 13   | 32k  | 256k | 1200 | 
+| Arduino    | AVRU     | 8   | 16   | 2k   | 32k  | 10  | 
+| PI Zero    | ARM11    | 32  | 1000 | 512M | SD   | 15  | 
+| PI Pico    | ARM C M0 | 32  | 133  | 264k | 16M  | 5   | 
 
 
 ---
@@ -432,31 +475,10 @@
 
 ---
 
-### Linkcollection for now
+### Link-Collection
 
-
-* KIM-Uno: https://www.hackster.io/obsolescence/kim-uno-a-6502-kim-1-computer-on-arduino-e5c82c
-* 6502 : http://www.6502.org/source/
-* UF2 : https://makecode.com/blog/one-chip-to-flash-them-all 
-* UF2 : https://github.com/microsoft/uf2
-* Pico - Arduino : https://www.heise.de/tests/Raspberry-Pico-mit-der-Arduino-IDE-programmieren-6001575.html
-* https://www.mikrocontroller.net/
-* Simulator Servo : https://wokwi.com/arduino/libraries/Servo/Knob
-* PICO-Sdk Pimoroni : https://github.com/pimoroni/pimoroni-pico/blob/main/setting-up-the-pico-sdk.md
-* The Junior-Computer : https://archive.org/details/ElektorMagazine/Elektor%5Bnonlinear.ir%5D%201980-05/page/n9/mode/2up?view=theater
-* Blinking LED in python (german) : https://draeger-it.blog/raspberry-pi-tutorial-1-blinkende-leds/
-* Blinking LED in python (english) : https://www.nzbuilds.com/post/getting-started-with-raspberry-pi-led-blinking-on-raspberry-pi-zero
-* Baremetal on a Raspberry-Pi Zero : https://github.com/dwelch67/raspberrypi-zero
-
-### Other PICO-Links
-
-* https://www.heise.de/news/Konkurrenz-fuer-Raspberry-Pico-mit-USB-C-und-Winzfaktor-6040934.html
-* https://www.heise.de/developer/artikel/Des-Prozessors-Kern-Parallelisierung-auf-dem-Raspberry-Pi-Pico-mit-C-und-C-6000386.html
-
-### Nice getting started
-
-* https://ordina-jworks.github.io/iot/2021/03/25/Getting-started-with-the-pi-pico.html
-* Shows also SDK, Micro-Python and Circuit-Python
+* see git-repo (branch gh_pages)
+* https://github.com/jogi-k/micro-controller-slides/tree/gh-pages
 
 ---
 
@@ -465,32 +487,3 @@
 * Von Rama &amp; Musée Bolo - Eigenes Werk, CC BY-SA 2.0 fr, https://commons.wikimedia.org/w/index.php?curid=11292404
 * Von Narnars0 - Eigenes Werk, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=32247697
 * Von Evan-Amos - Eigenes Werk, Gemeinfrei, https://commons.wikimedia.org/w/index.php?curid=17414886
-/home/jogi/bin/makemdpics
-![6502_loop.png](./pics/6502_loop.png)
-![80c166_front.png](./pics/80c166_front.png)
-![80c166.png](./pics/80c166.png)
-![Apple_II_2.jpg](./pics/Apple_II_2.jpg)
-![arduino_ide.png](./pics/arduino_ide.png)
-![arduino_leonardo.jpg](./pics/arduino_leonardo.jpg)
-![arduino_uno.jpg](./pics/arduino_uno.jpg)
-![atmega32u4.png](./pics/atmega32u4.png)
-![avr_8Bit_block_diag.png](./pics/avr_8Bit_block_diag.png)
-![c64.png](./pics/c64.png)
-![circuit-python_as_drive.png](./pics/circuit-python_as_drive.png)
-![dev_env_pico_arduino.png](./pics/dev_env_pico_arduino.png)
-![dev_env_pico_circuit.png](./pics/dev_env_pico_circuit.png)
-![dev_env_pico_micro.png](./pics/dev_env_pico_micro.png)
-![dev_env_pico_plain_II.png](./pics/dev_env_pico_plain_II.png)
-![dev_env_pico_plain.png](./pics/dev_env_pico_plain.png)
-![esp8266_esp01.jpg](./pics/esp8266_esp01.jpg)
-![jogis_junior.jpg](./pics/jogis_junior.jpg)
-![junior_computer_6502.jpg](./pics/junior_computer_6502.jpg)
-![junior_computer_6532.jpg](./pics/junior_computer_6532.jpg)
-![junior_gehaeuse.jpg](./pics/junior_gehaeuse.jpg)
-![junior.jpg](./pics/junior.jpg)
-![linus_nvidia.jpg](./pics/linus_nvidia.jpg)
-![pico_as_uf2.png](./pics/pico_as_uf2.png)
-![pico_boardsmanager.png](./pics/pico_boardsmanager.png)
-![raspberry_pi_pico.jpg](./pics/raspberry_pi_pico.jpg)
-![rp2040_blocks.jpg](./pics/rp2040_blocks.jpg)
-![RPI-Pico-Pins.jpg](./pics/RPI-Pico-Pins.jpg)
