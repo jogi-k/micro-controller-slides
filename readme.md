@@ -76,3 +76,6 @@
 
 * https://www.heise.de/tests/Raspberry-Pico-mit-der-Arduino-IDE-programmieren-6001575.html
 
+### A Raspberry Pi Pico Course by Hackaday:
+
+* https://hackaday.io/course/178733-raspberry-pi-pico-and-rp2040-the-deep-dive
